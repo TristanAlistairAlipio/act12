@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/woodie.jpg);
+} 
+
+header {
+    color: white;
+    padding: 1%;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+a{
+  text-decoration: none; 
+ text-align: right;
+ color: white;
+justify-content: flex-end;
+
+}
+.h22{
+    font-size: 100%;
+}
+.h2{
+text-align: center;
+
+}
+.p1{
+text-align: center;
+
+}
+.p2{
+    text-align: center;
+}
+article{
+background-color: grey;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section { 
+    flex: 1;
+    min-width: 300px;
+    margin: 10px; 
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 5px; 
+    background-color: white;
+    text-align: left;
+    background-image: url(img/wodoo.jpg);
+    color: white;
+}
+.sec1{
+    background-color: gray;
+    text-align: left;
+    border-bottom: 50px;
+ border-top: 50px;
+ border-color: green;
+}
+
+.sec2{
+ border-bottom: 50px;
+ border-top: 50px;
+ border-color: gold;
+}
+
+.sec3{
+    background-color: gray;
+    text-align: left;
+    border-bottom: 50px;  
+ border-top: 50px;
+ border-color: green;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+@media (min-width: 360px){
+    header{
+       flex-direction: column;
+       padding: 1%; 
+     }
+     li  a{
+       font-size: 2vw;
+       flex-direction: column;
+     }
+     article{
+        background-color: grey;
+        color: black;
+     }
+     .h1{
+       font-size: 1.9vw;
+     }
+     .h2{
+         font-size: 2.4vw;
+        
+     }
+     .h22{
+        font-size: 2.4vw;
+     }
+     .p2{
+        font-size: 1.9vw;
+     }
+     
+     .sec1{
+         background-image: url(img/wodoo.jpg);
+         font-size: 1.4vw;
+         text-align: center;
+     }
+     .sec2{
+         background-image: url(img/wodoo.jpg);
+         text-align: center;
+     }
+     
+     }
+     @media (min-width: 768px) {
+         header{
+             flex-direction: row;
+             padding: 1%;
+         }
+      li a{
+         font-size: 1.4vw;
+         flex-direction: row ;
+     }
+     article{
+        background-color: black;
+        color:white ;
+     }
+     .h1{
+         font-size: 2vw;
+     }
+     .h2 {
+         font-size: 2.5vw;
+        
+     }
+     .h22{
+        font-size: 2.5vw;
+     }
+     .p2{
+        font-size:2vw ;
+     }
+    
+     .sec1{
+         background-image: url(img/wodoo.jpg);
+         font-size: 1.5vw;
+         text-align: center;
+     }
+     .sec2{
+         background-image: url(img/wodoo.jpg);
+         text-align: center;
+     }
+     }
